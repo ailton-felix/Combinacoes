@@ -1,26 +1,5 @@
 import itertools
 
-def gerador(n, lista, i):
-    result=[[]] 
-    temp=[]
-    if i==n:
-        temp.append(lista)
-        result.append(temp)
-        return
-    
-    lista.insert(i,0)
-    gerador(n, lista, i+1)
-
-    lista.insert(i,1)
-    gerador(n, lista, i+1)
-
-n=2
-array=[None]*n
-print(gerador(2,array, 0))
-print(array)
-
-############################# above is trash
-
 mapa = { 0:" ", 1:", "}
 combinacoes = [[]]
 
@@ -54,4 +33,5 @@ for arranjo in possibilidades:
 
 combinacoes.pop(0)
 print("combinacoes=",combinacoes)
+
 
