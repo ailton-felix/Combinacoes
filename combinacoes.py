@@ -1,9 +1,9 @@
 import itertools
 
 mapa = { 0:" ", 1:", "}
-combinacoes = [[]]
+combinacoes = []
 
-frase = "eu gosto de café"
+frase = input("Forneça uma frase: ")
 listaPalavras = frase.split()
 # print("listaPalavras=",listaPalavras)
 # print("len(listaPalavras)=",len(listaPalavras))
@@ -13,8 +13,6 @@ possibilidades = list(itertools.product([0,1], repeat=len(listaPalavras)-1))
 # print("possibilidades=",possibilidades)
 # print("len(possibilidades)=",len(possibilidades))
 
-# e = possibilidades[1]
-# print(type(e[1]))
 for arranjo in possibilidades:
     # print("arranjo=",arranjo)
     frases = []
@@ -31,7 +29,6 @@ for arranjo in possibilidades:
     frases.append(frase)
     combinacoes.append(frases)
 
-combinacoes.pop(0)
 print("combinacoes=",combinacoes)
 
 
