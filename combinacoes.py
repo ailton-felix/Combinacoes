@@ -1,7 +1,3 @@
-'''
-requisitos importar 'itertools'
-'''
-
 import itertools
 
 mapa = { 0:" ", 1:", "}
