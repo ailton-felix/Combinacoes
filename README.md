@@ -1,4 +1,4 @@
-# Combinacoes
+# Combinações
  [Desafio Hand Talk] Resolução do problema 2
  
 # Descrição do problema
@@ -7,17 +7,16 @@ Dado uma frase qualquer, gere todas as combinações possíveis de quebra dessa 
 Exemplo: <br>
 Entrada: eu gosto de café <br>
 Saída:<br>
-[
-  ['eu gosto de café'],
-  ['eu', 'gosto de café'],
-  ['eu gosto', 'de café'],
-  ['eu gosto de', 'café'],
-  ['eu', 'gosto', 'de café'],
-  ['eu', 'gosto de', 'café'],
-  ['eu gosto', 'de', 'café'],
-  ['eu', 'gosto', 'de', 'café']
+[<br>
+  ['eu gosto de café'],<br>
+  ['eu', 'gosto de café'],<br>
+  ['eu gosto', 'de café'],<br>
+  ['eu gosto de', 'café'],<br>
+  ['eu', 'gosto', 'de café'],<br>
+  ['eu', 'gosto de', 'café'],<br>
+  ['eu gosto', 'de', 'café'],<br>
+  ['eu', 'gosto', 'de', 'café']<br>
 ]
 
-# Como executar
-Execute o arquivo ....
-
+# Sobre a execução
+ Execute o arquivo `combinacoes.py`. Após execução, forneça a(s) frase(s).
