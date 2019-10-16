@@ -19,4 +19,4 @@ Saída:<br>
 ]
 
 # Sobre a execução
- Execute o arquivo `combinacoes.py`. Após execução, forneça a(s) frase(s).
+ Execute o arquivo `combinacoes.py`. Após execução, forneça a(s) frase(s) e o programa exibirá todas as combinações possíveis de quebra desta(s) frase(s).
