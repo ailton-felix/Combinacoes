@@ -15,7 +15,7 @@ while entrada != '0':
         # print("listaPalavras=",listaPalavras)
         # print("len(listaPalavras)=",len(listaPalavras))
 
-        # gerando o arranjo de possiblidades (com repetição) 
+        # gerando o arranjo (com repetição) de possiblidades de um conjunto de elementos binários em função da quantidade de palavras da frase
         possibilidades = list(itertools.product([0,1], repeat=len(listaPalavras)-1))
         # print("possibilidades=",possibilidades)
         # print("len(possibilidades)=",len(possibilidades))
